@@ -1,8 +1,8 @@
 /**
  Project 2
  Description: Methods that modify strings
- @author Bernardo Fichman Lacerda
- @author Jaya Menon isPalindrome and isAbecedarian 
+ @author Bernardo Fichman Lacerda (isPandream and capitalizeFirstLetter)
+ @author Jaya Menon (isPalindrome and isAbecedarian)
  @since 03/17/2025
  */
 
