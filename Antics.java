@@ -5,7 +5,12 @@
  @author Jaya Menon isPalindrome and isAbecedarian 
  @since 03/17/2025
  */
-// This method checks to see if the word you entered is a Palindrome.
+
+    /**
+     * this method determines if the word you entered is a Palindrome 
+     * @param word is the word or phrase evaluated
+     * @return true if the word/phrase is a Palindrome, otherwise, it returns false
+     */
 public class Antics {
     public static boolean isPalindrome(String word) {
         word = word.toLowerCase();
@@ -27,7 +32,11 @@ public class Antics {
             return false;
         }
     }
-// This method checks to see if you entered a Abecedarian word
+    /**
+     * this method determines if the word you entered is a Abecedarian  
+     * @param word is the word or phrase evaluated
+     * @return true if the word/phrase is a Abecedarian, otherwise, it returns false
+     */
     public static boolean isAbecedarian(String name) {
         name=name.toLowerCase();
         int index = name.length() - 1;
