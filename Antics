@@ -1,0 +1,21 @@
+    public static boolean isPangram(String word) {
+        word=word.toLowerCase();
+
+        for (int i = 97; i < 123; i++) {
+            if(!word.contains(String.valueOf(Character.toChars(i)))){
+                return false;
+            }
+        }
+        return true;
+    }
+
+    public static String capitalizeFirstLetter(String text){
+        text = text.toLowerCase();
+        String firstLetter = String.valueOf(text.charAt(0));
+        firstLetter = firstLetter.toUpperCase();
+        text=text.replaceFirst("^[a-z]", firstLetter);
+
+        return text;
+
+    }
+
