@@ -2,9 +2,10 @@
  Project 2
  Description: Methods that modify strings
  @author Bernardo Fichman Lacerda
- @author Jaya Menon
+ @author Jaya Menon isPalindrome and isAbecedarian 
  @since 03/17/2025
  */
+// This method checks to see if the word you entered is a Palindrome.
 public class Antics {
     public static boolean isPalindrome(String word) {
         word = word.toLowerCase();
@@ -26,7 +27,7 @@ public class Antics {
             return false;
         }
     }
-
+// This method checks to see if you entered a Abecedarian word
     public static boolean isAbecedarian(String name) {
         name=name.toLowerCase();
         int index = name.length() - 1;
